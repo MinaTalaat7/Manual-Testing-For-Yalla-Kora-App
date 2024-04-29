@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+
+    <test name="AllTests">
+        <classes>
+            <class name="POSTTests.DeletPost"/>
+            <class name="POSTTests.GetPosts"/>
+            <class name="POSTTests.PatchPost"/>
+            <class name="POSTTests.PostAddNewPost"/>
+            <class name="POSTTests.PutPost"/>
+            <class name="Users.GetTodos"/>
+            <class name="Users.GetUsers"/>
+
+        </classes>
+    </test>
+</suite>

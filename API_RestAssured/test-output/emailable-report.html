@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Smoke</a></td><td class="numi">19</td><td class="numi">19</td><td class="numi">0</td><td class="numi">0</td><td class="numi">24.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">Smoke &#8212; passed</th></tr>
+<tr class="passedodd"><td>Users.GetUsers.GetAlbums</td><td><a href="#m1"><b>countAlbumIds</b>  </a></td><td class="numi">1</td><td>1711894535298</td><td class="numi">425</td></tr>
+<tr class="passedeven"><td>POSTTests.PostAddNewPost</td><td><a href="#m2"><b>postUserTest</b>  </a></td><td class="numi">1</td><td>1711894538030</td><td class="numi">517</td></tr>
+<tr class="passedodd"><td>POSTTests.PutPost</td><td><a href="#m3"><b>putUserTest</b>  </a></td><td class="numi">1</td><td>1711894539282</td><td class="numi">589</td></tr>
+<tr class="passedeven"><td rowspan="3">POSTTests.GetPosts</td><td><a href="#m4"><b>GetCommentForPostAndId</b>  </a></td><td class="numi">1</td><td>1711894516419</td><td class="numi">8994</td></tr><tr class="passedeven"><td><a href="#m5"><b>Getallposts</b>  </a></td><td class="numi">1</td><td>1711894530759</td><td class="numi">2183</td></tr><tr class="passedeven"><td><a href="#m6"><b>GetCommentsForPost</b>  </a></td><td class="numi">1</td><td>1711894525968</td><td class="numi">3323</td></tr>
+<tr class="passedodd"><td>Users.GetUsers</td><td><a href="#m7"><b>GetSpecificUser</b>  </a></td><td class="numi">1</td><td>1711894536161</td><td class="numi">438</td></tr>
+<tr class="passedeven"><td rowspan="3">POSTTests.GetPosts</td><td><a href="#m8"><b>GetSpecificPost</b>  </a></td><td class="numi">1</td><td>1711894530235</td><td class="numi">498</td></tr><tr class="passedeven"><td><a href="#m9"><b>testPostIds</b>  </a></td><td class="numi">1</td><td>1711894534332</td><td class="numi">510</td></tr><tr class="passedeven"><td><a href="#m10"><b>GetPostNotFound</b>  </a></td><td class="numi">1</td><td>1711894529328</td><td class="numi">901</td></tr>
+<tr class="passedodd"><td>POSTTests.PatchPost</td><td><a href="#m11"><b>putUserTest</b>  </a></td><td class="numi">1</td><td>1711894538563</td><td class="numi">715</td></tr>
+<tr class="passedeven"><td>POSTTests.GetPosts</td><td><a href="#m12"><b>testCountCompletedTasks</b>  </a></td><td class="numi">1</td><td>1711894532947</td><td class="numi">671</td></tr>
+<tr class="passedodd"><td>Users.GetTodos</td><td><a href="#m13"><b>testCountCompletedTasks</b>  </a></td><td class="numi">1</td><td>1711894537417</td><td class="numi">603</td></tr>
+<tr class="passedeven"><td>POSTTests.GetPosts</td><td><a href="#m14"><b>testEveryUserIdIsRepeated10Times</b>  </a></td><td class="numi">1</td><td>1711894533634</td><td class="numi">647</td></tr>
+<tr class="passedodd"><td>Users.GetUsers.GetAlbums</td><td><a href="#m15"><b>verifyAlbumsHaveTenIds</b>  </a></td><td class="numi">1</td><td>1711894535731</td><td class="numi">426</td></tr>
+<tr class="passedeven"><td>POSTTests.DeletPost</td><td><a href="#m16"><b>deletePostTest</b>  </a></td><td class="numi">1</td><td>1711894539876</td><td class="numi">509</td></tr>
+<tr class="passedodd"><td>Users.GetUsers</td><td><a href="#m17"><b>Users.GetUsers</b>  </a></td><td class="numi">1</td><td>1711894537031</td><td class="numi">365</td></tr>
+<tr class="passedeven"><td>Users.GetUsers.GetAlbums</td><td><a href="#m18"><b>GetUserAlbums</b>  </a></td><td class="numi">1</td><td>1711894534857</td><td class="numi">437</td></tr>
+<tr class="passedodd"><td>Users.GetUsers</td><td><a href="#m19"><b>GetUserNOTFound</b>  </a></td><td class="numi">1</td><td>1711894536601</td><td class="numi">426</td></tr>
+</table>
+<h1>Smoke</h1>
+<h2 id="m1">Users.GetUsers.GetAlbums:countAlbumIds</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">POSTTests.PostAddNewPost:postUserTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">POSTTests.PutPost:putUserTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">POSTTests.GetPosts:GetCommentForPostAndId</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">POSTTests.GetPosts:Getallposts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">POSTTests.GetPosts:GetCommentsForPost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Users.GetUsers:GetSpecificUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">POSTTests.GetPosts:GetSpecificPost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">POSTTests.GetPosts:testPostIds</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">POSTTests.GetPosts:GetPostNotFound</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">POSTTests.PatchPost:putUserTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">POSTTests.GetPosts:testCountCompletedTasks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Users.GetTodos:testCountCompletedTasks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">POSTTests.GetPosts:testEveryUserIdIsRepeated10Times</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Users.GetUsers.GetAlbums:verifyAlbumsHaveTenIds</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">POSTTests.DeletPost:deletePostTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Users.GetUsers:Users.GetUsers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">Users.GetUsers.GetAlbums:GetUserAlbums</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">Users.GetUsers:GetUserNOTFound</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
